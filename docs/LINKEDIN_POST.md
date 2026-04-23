@@ -20,6 +20,14 @@ That meant designing for:
 
 For me, this is where senior QA and delivery leadership really matters. The value is not only in shipping an AI feature. It is in building a system that is practical, testable, safe, and ready to support real operations.
 
+## Tech stack section for LinkedIn
+
+Built with `Python`, `FastAPI`, `PostgreSQL`, `Twilio`, `OpenAI API`, speech-to-text, text-to-speech, `React` or `Streamlit`, `Docker`, and a QA strategy centered on safety boundaries, AI evaluations, telephony reliability, and end-to-end workflow coverage.
+
+## Alternate tech stack wording
+
+Tech stack: Python, FastAPI, PostgreSQL, Twilio, OpenAI API, STT/TTS, React or Streamlit, Docker, GitHub, and a QA-first delivery model focused on safety, observability, and reliable escalation handling.
+
 ## Simple diagram for the post
 
 ```mermaid

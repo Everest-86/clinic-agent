@@ -58,11 +58,26 @@ clinic-agent/
 |- README.md
 ```
 
+## Tools Used
+
+- `Python` for backend orchestration and workflow logic
+- `FastAPI` for API endpoints, webhooks, and service structure
+- `PostgreSQL` for patient, appointment, call outcome, feedback, and escalation data
+- `Twilio` for outbound calling and telephony integration
+- `OpenAI API` for intent analysis, response generation, and voice testing
+- `Speech-to-text` for converting patient speech into structured text inputs
+- `Text-to-speech` for speaking back to patients in a natural voice
+- `React` or `Streamlit` for the clinic staff dashboard
+- `Docker` and `docker-compose` for local development and deployment setup
+- `Git` and `GitHub` for version control, collaboration, and publishing
+- `Mermaid` for architecture and workflow diagrams in project documentation
+
 ## Key documentation
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [Architecture Diagram](docs/ARCHITECTURE_DIAGRAM.md)
 - [GitHub Project Structure](docs/GITHUB_PROJECT_STRUCTURE.md)
+- [Why These Tools - Interview Notes](docs/WHY_THESE_TOOLS.md)
 - [QA Test Strategy](docs/QA_TEST_STRATEGY.md)
 - [Voice Test](docs/VOICE_TEST.md)
 - [LinkedIn Post With Diagram](docs/LINKEDIN_POST.md)
